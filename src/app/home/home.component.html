@@ -1,0 +1,13 @@
+<div>
+    <h2>User Registration and Sign-In</h2>
+    <form [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
+      <label for="username">Username:</label>
+      <input type="text" id="username" formControlName="username" required>
+      <br><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" formControlName="password" required>
+      <br><br>
+      <button type="submit">Register/Sign In</button>
+    </form>
+  </div>
+  

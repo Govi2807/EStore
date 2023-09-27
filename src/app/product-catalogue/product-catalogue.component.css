@@ -1,0 +1,49 @@
+/* Product Catalogue Component Styles */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  div > div {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  div > div img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  div > div h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  div > div p {
+    font-weight: bold;
+    color: #ff5733;
+  }
+  
+  button {
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e5451d;
+  }
+  
